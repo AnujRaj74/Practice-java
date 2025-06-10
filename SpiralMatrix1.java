@@ -33,7 +33,7 @@ public class SpiralMatrix1
             if (startCol<endCol) 
             {
 
-                 for(int i=endCol-1;i>=startCol+1;i--)
+                 for(int i=endRow-1;i>=startRow+1;i--)
                  {
 
                     System.out.print(matrix[i][startCol]+" ");
@@ -47,7 +47,6 @@ public class SpiralMatrix1
         }
 
         System.out.println();
-
     }
 
     public static void main(String a[])
